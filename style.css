@@ -17,19 +17,24 @@ body {
 
 h1 {
     font-weight: 700;
+    color: hsl(300, 43%, 22%);
 }
 
 p {
     font-weight: 700;
+    color: hsl(300, 43%, 22%);
 }
 
 .cont-1-sub-1 p {
     font-weight: 300 !important;
+    color: hsl(303, 10%, 53%);
 }
 
 .cont-1-sub-2 p {
     background-color: hsl(300, 24%, 96%);
-    padding: .8rem 6.3rem;
+    /* padding: .8rem 6.3rem; */
+    width: 100%;
+    height: 10%;
 }
 
 .container {
