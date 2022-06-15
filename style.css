@@ -71,7 +71,7 @@ span {
         line-height: .8;
     }
     .cont-1-sub-2 {
-        width: 100%;
+        /* width: 100%; */
     }
 }
 
@@ -89,6 +89,10 @@ span {
     .cont-1-sub-1 p {
         padding-right: 150px;
     }
+    .cont-1-sub-2 {
+        display: flex;
+        flex-direction: column;
+    }
     .cont-1-sub-2 div {
         display: inline-block;
         text-align: justify;
@@ -103,14 +107,20 @@ span {
         margin-right: 1.1rem;
     }
     .cont-1-sub-1 {
-        flex-basis: 50%;
+        flex-basis: 40%;
     }
     .cont-1-sub-2 {
-        flex-basis: 50%;
+        flex-basis: 60%;
+    }
+    .first-star {
+        align-self: flex-start;
     }
     .mid-star {
-        align-self: center !important;
-        float: left;
+        align-self: center;
+        /* float: left; */
+    }
+    .last-star {
+        align-self: flex-end;
     }
 }
 
