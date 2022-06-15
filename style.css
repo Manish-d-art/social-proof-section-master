@@ -94,7 +94,7 @@ span {
         text-align: justify;
         line-height: 1.5;
         margin-bottom: 1rem;
-        padding: 1rem;
+        padding: .8rem 3rem;
     }
     br {
         display: none;
@@ -102,18 +102,20 @@ span {
     .star .image {
         margin-right: 1.1rem;
     }
+    .cont-1-sub-1 {
+        flex-basis: 50%;
+    }
+    .cont-1-sub-2 {
+        flex-basis: 50%;
+    }
+    .mid-star {
+        align-self: center !important;
+        float: left;
+    }
 }
 
 .cont-1 {
     display: flex;
-}
-
-.cont-1-sub-1 {
-    flex-basis: 50%;
-}
-
-.cont-1-sub-2 {
-    flex-basis: 50%;
 }
 
 .container {
