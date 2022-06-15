@@ -37,6 +37,12 @@ span {
     font-weight: 700;
 }
 
+.cont-1-sub-2 div {
+    background-color: hsl(300, 24%, 96%);
+    /* margin-bottom: 1rem; */
+    padding: .8rem 3rem;
+}
+
 @media (max-width: 820px) {
     main {
         margin: 4rem 2rem;
@@ -61,7 +67,6 @@ span {
     }
     h1 {
         font-weight: 700;
-        color: hsl(300, 43%, 22%);
         font-size: 2rem;
         line-height: .8;
     }
@@ -102,10 +107,10 @@ span {
         margin-right: 1.1rem;
     }
     .cont-1-sub-1 {
-        flex-basis: 40%;
+        flex-basis: 45%;
     }
     .cont-1-sub-2 {
-        flex-basis: 60%;
+        flex-basis: 55%;
     }
     .first-star {
         align-self: flex-start;
