@@ -87,7 +87,8 @@ span {
         margin-bottom: 2rem;
     }
     .cont-1-sub-1 p {
-        padding-right: 150px;
+        padding-right: 120px;
+        font-weight: 700 !important;
     }
     .cont-1-sub-2 {
         display: flex;
@@ -98,7 +99,7 @@ span {
         text-align: justify;
         line-height: 1.5;
         margin-bottom: 1rem;
-        padding: .8rem 3rem;
+        padding: .8rem 2rem;
     }
     br {
         display: none;
