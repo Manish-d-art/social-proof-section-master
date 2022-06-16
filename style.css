@@ -9,6 +9,7 @@ main {
     margin: 6rem 8rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 body {
@@ -70,8 +71,8 @@ span {
         font-size: 2rem;
         line-height: .8;
     }
-    .cont-1-sub-2 {
-        /* width: 100%; */
+    .cont-2 {
+        display: flex;
     }
 }
 
