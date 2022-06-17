@@ -54,7 +54,8 @@ span {
 
 .images {
     border-radius: 50%;
-    width: 50px;
+    width: 45px;
+    margin-right: 1rem;
 }
 
 .cont-2-sub-1-img1,
@@ -62,6 +63,12 @@ span {
 .cont-2-sub-1-img3 {
     display: flex;
     align-items: center;
+}
+
+.cont-2-sub-1-img1,
+.cont-2-sub-1-img2,
+.cont-2-sub-1-img3 p {
+    line-height: 1.2;
 }
 
 @media (max-width: 820px) {
