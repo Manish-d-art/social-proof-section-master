@@ -52,10 +52,18 @@ span {
     display: flex;
 }
 
+.cont-2-sub-1,
+.cont-2-sub-2,
+.cont-2-sub-3 {
+    padding: 3rem;
+    margin-bottom: 1rem;
+    ;
+}
+
 .images {
     border-radius: 50%;
     width: 45px;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .cont-2-sub-1-img1,
@@ -63,6 +71,8 @@ span {
 .cont-2-sub-1-img3 {
     display: flex;
     align-items: center;
+    margin-bottom: 2rem;
+    ;
 }
 
 .cont-2-sub-1-img1,
