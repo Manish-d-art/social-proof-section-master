@@ -148,7 +148,7 @@ h1 {
     }
 }
 
-@media (min-width:820px) {
+@media (min-width:821px) {
     h1 {
         padding-right: 170px;
         margin-bottom: 2rem;
@@ -205,6 +205,18 @@ h1 {
     }
     .cont-2-sub-3 {
         align-self: flex-end;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1220px) {
+    .cont-2 {
+        height: 400px;
+    }
+}
+
+@media (min-width:820px) and (max-width:999px) {
+    .cont-2 {
+        height: 500px;
     }
 }
 
