@@ -184,6 +184,7 @@ h1 {
     }
     .cont-1-sub-2 {
         flex-basis: 55%;
+        margin-top: .6rem;
     }
     .first-star {
         align-self: flex-start;
