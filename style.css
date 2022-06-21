@@ -260,3 +260,7 @@ h1 {
         margin: 6rem 4rem;
     }
 }
+
+.container {
+    background-image: url("/assets/images/bg-pattern-bottom-desktop.svg"), url("/assets/images/bg-pattern-bottom-mobile.svg"), url("/assets/images/bg-pattern-top-desktop.svg");
+}
