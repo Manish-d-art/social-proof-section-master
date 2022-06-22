@@ -216,6 +216,11 @@ h1 {
     .cont-2-sub-3 {
         align-self: flex-end;
     }
+    body {
+        background-image: url("assets/images/bg-pattern-top-desktop.svg"), url("assets/images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: -100px 0px, 300px 100px;
+    }
 }
 
 @media (min-width:1000px) and (max-width:1220px) {
@@ -259,8 +264,4 @@ h1 {
     main {
         margin: 6rem 4rem;
     }
-}
-
-.container {
-    background-image: url("/assets/images/bg-pattern-bottom-desktop.svg"), url("/assets/images/bg-pattern-top-desktop.svg");
 }
