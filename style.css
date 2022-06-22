@@ -227,27 +227,36 @@ h1 {
     .cont-2 {
         height: 400px;
     }
+    body {
+        background-position: -80px 0px, 300px 35px;
+    }
 }
 
+
+}
 @media (min-width:821px) and (max-width:999px) {
     .cont-2 {
         height: 500px;
     }
+    
+    body {
+        background-position: -80px 0px, 300px -10px !important;
+    }
 }
-
 @media (min-width:821px) and (max-width:1046px) {
     h1 {
         padding-right: 119px;
     }
+    
     .cont-1-sub-1 p {
         padding-right: 1.3rem;
     }
+    
     .cont-1-sub-2 div {
         /* line-height: 2.5; */
         padding: 0.8rem 1rem;
     }
 }
-
 @media (min-width:821px) and (max-width:1008px) {
     .cont-2-sub-1,
     .cont-2-sub-2,
@@ -255,11 +264,9 @@ h1 {
         padding: 1.5rem;
     }
 }
-
 .cont-1 {
     display: flex;
 }
-
 @media (min-width:911px) and (max-width:913px) {
     main {
         margin: 6rem 4rem;
