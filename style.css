@@ -69,6 +69,7 @@ h1 {
 .cont-2-sub-2-para,
 .cont-2-sub-3-para p {
     line-height: 1.5;
+    color: hsl(0, 0%, 100%);
 }
 
 .images {
@@ -283,4 +284,9 @@ h1 {
 }
 .star img {
     margin-bottom: -3px;
+}
+@media (min-width:1440px) {
+    main {
+        margin: 12rem 12rem;
+    }
 }
