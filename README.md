@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/Manish-d-art/single-piece-grid-component.git)
-- Live Site URL: [Live site URL here](https://single-price-gri-component.netlify.app)
+- Solution URL: [Solution URL here](https://github.com/Manish-d-art/social-proof-section-master.git)
+- Live Site URL: [Live site URL here](https://social-spoof-component.netlify.app)
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 
 - Frontend Mentor - [@Manish-d-art](https://www.frontendmentor.io/profile/Manish-d-art)
 - Twitter - [@manishmandal77](https://www.twitter.com/manishmandal77)
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - social spoof component solution
